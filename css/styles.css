@@ -592,12 +592,9 @@ img {
   display: block;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.04em;
   color: var(--color-icon-customers-border);
   margin-bottom: 4px;
-}
-.descr {
-  letter-spacing: 0.04em;
 }
 
 .contact-form-icon {
@@ -661,13 +658,12 @@ img {
 /* .contact-form-icon-done {
   opacity: 0;
 } */
-/* .contact-form-chekbox:checked
+.contact-form-chekbox:focus
   + .chekbox-label
   > .contact-form-own-chekbox
   > .contact-form-icon-done {
-  /* opacity: 1; */
-  fill: var(--background-color-light);
-} */
+  fill: var(--accent-color);
+}
 /* 
 .contact-form-chekbox {
   appearance: none;
@@ -680,7 +676,7 @@ img {
 .contact-form-chekbox:checked + .chekbox-label > .contact-form-own-chekbox {
   background-color: var(--hover-focus-color);
   border: none;
-  fill: var(--background-color-light);
+  fill: var(--text-color-theme-dark-secondary);
   border-color: var(--hover-focus-color);
 }
 .chekbox-label {
