@@ -608,6 +608,9 @@ img {
 .contact-form-input-wrapper {
   position: relative;
 }
+.contact-form-input:focus + .contact-form-icon {
+  fill: var(--accent-color);
+}
 .contact-form-textarea {
   width: 100%;
   height: 120px;
