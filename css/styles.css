@@ -498,10 +498,9 @@ img {
 .subscribe-form-container {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
-.subscribe-form {
-  margin-right: 24px;
-}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -609,6 +608,10 @@ img {
   fill: var(--background-color-dark);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contact-form-icon-done {
+  width: 14px;
+  height: 14px;
+}
 .contact-form-input-wrapper {
   position: relative;
 }
@@ -641,6 +644,9 @@ img {
   border-radius: 2px;
   margin-right: 6px;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-submit {
