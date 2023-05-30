@@ -485,6 +485,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  transition: background-color var(--transition-value);
+}
+.subscribe-form-submit:hover,
+.subscribe-form-submit:focus {
+  background-color: var(--hover-focus-color);
 }
 .subscribe-form-icon {
   fill: #fff;
@@ -656,6 +661,10 @@ img {
   margin-right: auto;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-form-submit:hover,
+.contact-form-submit:focus {
+  background-color: var(--hover-focus-color);
 }
 
 .contact-form-chekbox:focus + .chekbox-label > .contact-form-own-chekbox {
